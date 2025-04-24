@@ -1,0 +1,86 @@
+.card-body-height {
+    min-height: 232px;
+}
+
+.blog-img {
+    height: 75px;
+    object-fit: cover;
+    max-width: 120px;
+    min-width: 120px;
+}
+
+.h-top-img {
+    height: 400px;
+}
+
+.blog-text {
+    margin-left: 0.5rem;
+    text-align: justify;
+    height: 70px;
+    font-size: 15px !important;
+}
+
+.blog-text:hover {
+    color: var(--cl-primary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.last-news img {
+    position: sticky;
+    top: 15%;
+    border-radius: 6px;
+}
+
+.div-tt {
+    padding-left: 26px !important;
+    padding-right: 26px !important;
+    border-radius: 12px;
+}
+
+/* Nội dung */
+.noi-dung * {
+    padding: 0;
+    margin: 0;
+    line-height: 30px !important;
+}
+
+.noi-dung p, .noi-dung span, .noi-dung label {
+    margin-bottom: 12px !important;
+}
+
+.noi-dung h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    color: var(--cl-blue-1);
+    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+}
+
+.noi-dung h1, h2 {
+    font-size: 32px;
+    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+}
+
+.noi-dung img {
+    width: 100%;
+    border-radius: 12px;
+    max-height: none;
+    object-fit: cover;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.noi-dung a {
+    color: #0768ea !important;
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+
+/* Mobile breakpoint */
+@media (max-width: 576px) {
+    .h-top-img {
+        height: 200px;
+    }
+}

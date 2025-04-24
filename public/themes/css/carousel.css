@@ -1,0 +1,49 @@
+.height-carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.second-carousel-item img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px){
+    .height-carousel-item{
+        height: 250px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .height-carousel-item{
+        height: 300px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .height-carousel-item{
+        height: 350px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+

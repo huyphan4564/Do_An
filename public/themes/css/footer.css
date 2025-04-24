@@ -1,0 +1,11 @@
+.footer{
+    background-color: var(--cl-blue-3);
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance:none) {
+        .text-white{
+            color: white;
+        }
+    }
+}
